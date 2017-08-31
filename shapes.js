@@ -1,6 +1,6 @@
 //Shape constructor, having a property called type.
 function Shape(type){
-	// this.type = type;
+	
 	if (this instanceof Shape){
 		console.log(this);
 		console.log(" This is an instanceof Shape");
